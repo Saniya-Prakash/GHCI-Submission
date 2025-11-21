@@ -1,0 +1,31 @@
+Error generating report: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************IhUA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+
+Analysis Results:
+{
+  "PV_production": {
+    "mean": 261.69,
+    "std": 800.11642707089,
+    "min": 0.0,
+    "max": 4114.0,
+    "median": 0.0
+  },
+  "Wind_production": {
+    "mean": 2302.37,
+    "std": 266.9407551642813,
+    "min": 1883.0,
+    "max": 2920.0,
+    "median": 2330.0
+  },
+  "model_performance": {
+    "PV_production": {
+      "MAE": 18.337350000000004,
+      "RMSE": 72.44584195625032,
+      "R2": 0.9917189508987245
+    },
+    "Wind_production": {
+      "MAE": 73.9382595238095,
+      "RMSE": 162.70889076793773,
+      "R2": 0.6247181121163046
+    }
+  }
+}
